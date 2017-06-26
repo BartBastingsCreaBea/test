@@ -1,0 +1,112 @@
+{
+	"text": [{
+		"valueMissing":"text valueMissing",
+		"badInput":"text badInput",
+		"patternMismatch":"text patternMismatch",
+		"rangeUnderflow":"text rangeUnderflow",
+		"rangeOverflow":"text rangeOverflow",
+		"stepMismatch":"text stepMismatch",
+		"tooLong":"text tooLong",
+		"typeMismatch":"text typeMismatch"
+	}],
+	"email": [{
+		"valueMissing":"email valueMissing",
+		"badInput":"email badInput",
+		"patternMismatch":"email patternMismatch",
+		"rangeUnderflow":"email rangeUnderflow",
+		"rangeOverflow":"email rangeOverflow",
+		"stepMismatch":"email stepMismatch",
+		"tooLong":"email tooLong",
+		"typeMismatch":"email typeMismatch"
+	}],
+	"url": [{
+		"valueMissing":"url valueMissing",
+		"badInput":"url badInput",
+		"patternMismatch":"url patternMismatch",
+		"rangeUnderflow":"url rangeUnderflow",
+		"rangeOverflow":"url rangeOverflow",
+		"stepMismatch":"url stepMismatch",
+		"tooLong":"url tooLong",
+		"typeMismatch":"url typeMismatch"
+	}],
+	"number": [{
+		"valueMissing":"number valueMissing",
+		"badInput":"number badInput",
+		"patternMismatch":"number patternMismatch",
+		"rangeUnderflow":"number rangeUnderflow",
+		"rangeOverflow":"number rangeOverflow",
+		"stepMismatch":"number stepMismatch",
+		"tooLong":"number tooLong",
+		"typeMismatch":"number typeMismatch"
+	}],
+	"tel": [{
+		"valueMissing":"tel valueMissing",
+		"badInput":"tel badInput",
+		"patternMismatch":"tel patternMismatch",
+		"rangeUnderflow":"tel rangeUnderflow",
+		"rangeOverflow":"tel rangeOverflow",
+		"stepMismatch":"tel stepMismatch",
+		"tooLong":"tel tooLong",
+		"typeMismatch":"tel typeMismatch"
+	}],
+	"date": [{
+		"valueMissing":"date valueMissing",
+		"badInput":"date badInput",
+		"patternMismatch":"date patternMismatch",
+		"rangeUnderflow":"date rangeUnderflow",
+		"rangeOverflow":"date rangeOverflow",
+		"stepMismatch":"date stepMismatch",
+		"tooLong":"date tooLong",
+		"typeMismatch":"date typeMismatch"
+	}],
+	"password": [{
+		"valueMissing":"password valueMissing",
+		"badInput":"password badInput",
+		"patternMismatch":"password patternMismatch",
+		"rangeUnderflow":"password rangeUnderflow",
+		"rangeOverflow":"password rangeOverflow",
+		"stepMismatch":"password stepMismatch",
+		"tooLong":"password tooLong",
+		"typeMismatch":"password typeMismatch"
+	}],
+	"checkbox": [{
+		"valueMissing":"checkbox valueMissing",
+		"badInput":"checkbox badInput",
+		"patternMismatch":"checkbox patternMismatch",
+		"rangeUnderflow":"checkbox rangeUnderflow",
+		"rangeOverflow":"checkbox rangeOverflow",
+		"stepMismatch":"checkbox stepMismatch",
+		"tooLong":"checkbox tooLong",
+		"typeMismatch":"checkbox typeMismatch"
+	}],
+	"personal-name": [{
+		"valueMissing":"Please fill in your name",
+		"badInput":"Please fill in your name",
+		"patternMismatch":"Please fill in your name",
+		"rangeUnderflow":"Please fill in your name",
+		"rangeOverflow":"Please fill in your name",
+		"stepMismatch":"Please fill in your name",
+		"tooLong":"Please fill in your name",
+		"typeMismatch":"Please fill in your name"
+	}],
+	"personal-password": [{
+		"valueMissing":"Please fill in your password",
+		"badInput":"Please fill in your password",
+		"patternMismatch":"Please fill in your password",
+		"rangeUnderflow":"Please fill in your password",
+		"rangeOverflow":"Please fill in your password",
+		"stepMismatch":"Please fill in your password",
+		"tooLong":"Please fill in your password",
+		"typeMismatch":"Please fill in your password"
+	}],
+	"personal-email": [{
+		"valueMissing":"Please fill in your email",
+		"badInput":"Please fill in your email",
+		"patternMismatch":"Please fill in your email",
+		"rangeUnderflow":"Please fill in your email",
+		"rangeOverflow":"Please fill in your email",
+		"stepMismatch":"Please fill in your email",
+		"tooLong":"Please fill in your email",
+		"typeMismatch":"Please fill in your email"
+	}]
+}

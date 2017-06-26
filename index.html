@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Bart Bastings">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Form</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/button.css">
+		<link rel="stylesheet" href="css/form.css">
+		<link rel="stylesheet" href="css/styleguide.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<!--
+		<script src="js/lib/jquery-3.1.1.min.js"></script>
+		<script src="js/lib/jquery-migrate-1.4.1.min.js"></script>
+		<script src="js/lib/polyfiller.min.js"></script>
+		-->
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+	<!-- header -->
+		<header class="page page__header header__fixed">
+			<div class="header__top">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+							<h1 class="page__header__title">Form</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- main -->
+		<main class="page page__main header__fixed footer__sticky">
+			<section class="block block__section">
+				<header class="block block__header">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+								<h2 class="block__header__title">Form JS and CSS</h2>
+							</div>
+						</div>
+					</div>
+				</header>
+				<main class="block block__main">
+					<div class="container">
+						<div class="row block__main__row">
+							<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+								<form class="c-form">
+									<fieldset class="c-form__fieldset">
+										<legend class="c-form__legend">Form</legend>
+										<div class="c-form__row">
+											<label class="c-form__label" for="name">Username</label>
+											<input id="name" class="c-form__input" type="text" placeholder="Firstname and Surname" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="password">Password</label>
+											<input id="password" class="c-form__input" type="password" placeholder="minimaal 6 tekens" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="email">Email Address</label>
+											<input id="email" class="c-form__input" type="email" placeholder="mail@infor.com" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="tel">Telephone number</label>
+											<input id="tel" class="c-form__input" type="tel" placeholder="+31(43)4572280" data-optional="optioneel"/>
+										</div>
+										<div class="c-form__row">
+											<label form="terms" class="checkbox"><input id="terms" type="checkbox"> I've read the terms and conditions</label>
+										</div>
+										<div class="c-form__row">
+											<button class="btn" type="submit">Submit</button>
+											<button class="btn" type="reset">reset</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="row block__main__row">
+							<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+								<form class="c-form js-formValidation">
+									<fieldset class="c-form__fieldset">
+										<legend class="c-form__legend">Form validation</legend>
+										<div class="c-form__row">
+											<label class="c-form__label" for="nameVal">Username</label>
+											<input id="nameVal" name="nameVal" class="c-form__input" type="text" placeholder="Firstname and Surname" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="passwordVal">Password</label>
+											<input id="passwordVal" name="passwordVal" class="c-form__input" type="password" placeholder="minimaal 6 tekens" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="emailVal">Email Address</label>
+											<input id="emailVal" name="emailVal" class="c-form__input" type="email" placeholder="mail@infor.com" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="telVal">Telephone number</label>
+											<input id="telVal" name="telVal" class="c-form__input" type="tel" placeholder="+31(43)4572280" data-optional="optioneel"/>
+										</div>
+										<div class="c-form__row">
+											<label form="termsVal" class="checkbox"><input id="termsVal" name="termsVal" type="checkbox"> I've read the terms and conditions</label>
+										</div>
+										<div class="c-form__row">
+											<button class="btn" type="submit">Submit</button>
+											<button class="btn" type="reset">reset</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="row block__main__row">
+							<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+								<form class="c-form js-formValidation" data-validation="custom">
+									<fieldset class="c-form__fieldset">
+										<legend class="c-form__legend">Form validation<small>:custom</small></legend>
+										<div class="c-form__row">
+											<label class="c-form__label" for="nameValCos">Username</label>
+											<input id="nameValCos" name="nameValCos" class="c-form__input" type="text" placeholder="Firstname and Surname" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="passwordValCos">Password</label>
+											<input id="passwordValCos" name="passwordValCos" class="c-form__input" type="password" placeholder="minimaal 6 tekens" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="emailValCos">Email Address</label>
+											<input id="emailValCos" name="emailValCos" class="c-form__input" type="email" placeholder="mail@infor.com" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="telValCos">Telephone number</label>
+											<input id="telValCos" name="telValCos" class="c-form__input" type="tel" placeholder="+31(43)4572280" data-optional="optioneel"/>
+										</div>
+										<div class="c-form__row">
+											<label form="termsValCos" name="termsValCos" class="checkbox"><input id="termsValCos" type="checkbox"> I've read the terms and conditions</label>
+										</div>
+										<div class="c-form__row">
+											<button class="btn" type="submit">Submit</button>
+											<button class="btn" type="reset">reset</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="row block__main__row">
+							<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+								<form class="c-form js-formValidation" data-validation="personal">
+									<fieldset class="c-form__fieldset">
+										<legend class="c-form__legend">Form validation<small>:personal</small></legend>
+										<div class="c-form__row">
+											<label class="c-form__label" for="nameValPer">Username</label>
+											<input id="nameValPer" name="nameValPer" class="c-form__input" type="text" placeholder="Firstname and Surname" data-personal="name" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="passwordValPer">Password</label>
+											<input id="passwordValPer" name="passwordValPer" class="c-form__input" type="password" placeholder="minimaal 6 tekens" data-personal="password" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="emailValPer">Email Address</label>
+											<input id="emailValPer" name="emailValPer" class="c-form__input" type="email" placeholder="mail@infor.com" required/>
+										</div>
+										<div class="c-form__row">
+											<label class="c-form__label" for="telValCos">Telephone number</label>
+											<input id="telValPer" name="telValPer" class="c-form__input" type="tel" placeholder="+31(43)4572280" data-optional="optioneel"/>
+										</div>
+										<div class="c-form__row">
+											<label form="termsValPer" name="termsValPer" class="checkbox"><input id="termsValCos" type="checkbox"> I've read the terms and conditions</label>
+										</div>
+										<div class="c-form__row">
+											<button class="btn" type="submit">Submit</button>
+											<button class="btn" type="reset">reset</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="row block__main__row">
+							<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+								<form class="c-form c-form--label js-formLabel" name="formLabel">
+									<fieldset class="c-form__fieldset">
+										<legend class="c-form__legend">Form label<small>:focus</small></legend>
+										<div class="c-form__row">
+											<input id="nameLabel" class="c-form__input" name="nameLabel" type="text" required/>
+											<label class="c-form__label" for="nameLabel">Username</label>
+										</div>
+										<div class="c-form__row">
+											<input id="passwordLabel" class="c-form__input" name="passwordLabel" type="password" required/>
+											<label class="c-form__label" for="passwordLabel">Password</label>
+										</div>
+										<div class="c-form__row">
+											<input id="emailLabel" class="c-form__input" name="emailLabel" type="email" required/>
+											<label class="c-form__label" for="emailLabel">Email Address</label>
+										</div>
+										<div class="c-form__row">
+											<input id="telLabel" class="c-form__input" name="telLabel" type="tel" placeholder="+31(43)4572280"/>
+											<label class="c-form__label" for="telLabel" data-optional="optioneel">Telephone number</label>
+										</div>
+										<div class="c-form__row">
+											<label form="termsLabel" class="checkbox"><input id="termsLabel" type="checkbox" required> I've read the terms and conditions</label>
+										</div>
+										<div class="c-form__row">
+											<button class="btn" type="submit">Submit</button>
+											<button class="btn" type="reset">reset</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+						<div class="row block__main__row">
+							<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+								<form class="c-form c-form--label js-formValidation js-formLabel" data-validation="personal" name="formAll">
+									<fieldset class="c-form__fieldset">
+										<legend class="c-form__legend">Form<small>:all</small></legend>
+										<div class="c-form__row">
+											<input id="nameAll" class="c-form__input" name="nameAll" type="text" required/>
+											<label class="c-form__label" for="nameAll">Username</label>
+										</div>
+										<div class="c-form__row">
+											<input id="passwordAll" class="c-form__input" name="passwordAll" type="password" required/>
+											<label class="c-form__label" for="passwordAll">Password</label>
+										</div>
+										<div class="c-form__row">
+											<input id="emailAll" class="c-form__input" name="emailAll" type="email" data-personal="email" required/>
+											<label class="c-form__label" for="emailAll">Email Address</label>
+										</div>
+										<div class="c-form__row">
+											<input id="telAll" class="c-form__input" name="telAll" type="tel" placeholder="+31(43)4572280"/>
+											<label class="c-form__label" for="telAll" data-optional="optioneel">Telephone number</label>
+										</div>
+										<div class="c-form__row">
+											<label form="termsAll" class="checkbox"><input id="termsAll" name="termsAll" type="checkbox" required> I've read the terms and conditions</label>
+										</div>
+										<div class="c-form__row">
+											<button class="btn" type="submit">Submit</button>
+											<button class="btn" type="reset">reset</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</main>
+			</section>
+		</main>
+		<footer class="page page__footer footer__sticky">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg--12 col-md--12 col-sm--8 col-xs--6">
+						<p>Footer</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

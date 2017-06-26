@@ -1,0 +1,28 @@
+/*
+------------
+** button **
+------------
+*/
+.btn { display:inline-block; margin:0; border:0; padding:3px 10px; outline:none; text-align:center; text-decoration: none; white-space:nowrap; vertical-align:middle; line-height:normal; cursor:pointer; overflow: visible; font-family:inherit; font-size:100%; zoom:1; -webkit-appearance:none; appearance:none; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;-webkit-background-clip: padding; -moz-background-clip: padding; background-clip: padding-box; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background-image:none; -ms-touch-action:manipulation; touch-action:manipulation; -webkit-user-drag:none; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; -webkit-user-drag:none; }
+.btn::-moz-focus-inner, a.btn::-moz-focus-inner { padding: 0; border: 0; }
+/* actions */
+.btn:hover, a.btn:hover, .btn--hover{ text-decoration: none; }
+.btn:focus, a.btn:focus, .btn--focus { outline:none; }
+.btn:active, a.btn:active, .btn--active {  }
+/* link */
+.btn--link { display:inline-block; padding:0; border:0; background-color:transparent; text-decoration:underline; color:inherit; }
+/* disabled */
+.btn[disabled], a.btn--disabled, .btn--disabled { -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select: none; cursor: default; }
+/* hidden */
+.btn--hidden { display:none; }
+/* btn arrows */
+.btn__arrow { position:relative; }
+.btn__arrow:before { position:absolute; top:50%; -ms-transform:translateY(-50%); -webkit-transform:translateY(-50%); transform:translateY(-50%); font-size:inherit; line-height:normal; }
+.btn__arrow--left { padding-left:30px; }
+.btn__arrow--left:before { content:'\2039'; left:15px; }
+.btn__arrow--left:hover:before { left:10px; }
+.btn__arrow--right { padding-right:30px; }
+.btn__arrow--right:before { content:'\203A'; right:15px; }
+.btn__arrow--right:hover:before { right:10px; }
+/* btn round */
+.btn--round { border-radius:10px; }
